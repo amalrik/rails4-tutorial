@@ -7,6 +7,15 @@ gem 'rails', '4.0.2'
 group :development, :test do
   gem 'sqlite3', '1.3.8'
   gem 'rspec-rails', '2.13.1'
+  gem 'guard-rspec', '2.5.0'
+  gem 'spork-rails', '4.0.0'
+  gem 'guard-spork', '1.5.0'
+  gem 'childprocess', '0.3.9'
+  gem "ruby-fsevent", "~> 0.2.1", :require => false
+  #gem 'growl', '1.0.3'
+  #gem "growl_notify", "~> 0.0.3"
+  #gem 'terminal-notifier', '1.5.1'
+  gem 'terminal-notifier-guard', "~> 1.5.3"
 end
 
 group :test do
